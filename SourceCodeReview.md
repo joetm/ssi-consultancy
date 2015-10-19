@@ -172,9 +172,9 @@ Running this gives:
                 [email] => Joe.Bloggs@acme.org
             )
     )
+</strike>
 
 Reading this file on every request may have implications for performance.
-</strike>
 
 ---
 
@@ -203,6 +203,7 @@ PHP supports internationalization via [gettext](http://php.net/manual/en/book.ge
 
 ---
 
+<strike>
 ## Consider splitting the repository in future
 
 At present, sameAs Lite consists of three files, with the following number of lines:
@@ -216,6 +217,7 @@ A question that has been raised is whether to host Store.php, the core library, 
 One downside is that the number of supporting files would increase. Each repository would need its own Composer files, Makefile, README.md and supporting documentation. 
 
 Given the compactness of sameAs Lite at present, I'd recommend keeping them within one repository for now but ensuring that source code and test code is developed in a modular way so that Store.php (and any of its test classes) can be pulled into a new repository, without either them, or WebApp.php, having to be recoded in any way.
+</strike>
 
 ---
 
