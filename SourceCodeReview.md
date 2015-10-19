@@ -103,6 +103,7 @@ Decoupling would impose a performance hit, for example, populating a PHP data st
 
 ---
 
+<strike>
 ## Make index.php configurable
 
 As an alternative to editing index.php, consider using a configuration file to declare database configuration information. For example, in [INI](http://en.wikipedia.org/wiki/INI_file) format:
@@ -173,6 +174,7 @@ Running this gives:
     )
 
 Reading this file on every request may have implications for performance.
+</strike>
 
 ---
 
